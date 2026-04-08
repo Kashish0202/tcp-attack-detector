@@ -21,5 +21,7 @@ def start_sniffing(interface=None):
         store=0,
         iface=interface
     )
+
 if __name__ == "__main__":
-    start_sniffing()
+    start_sniffing(interface="enp0s3")
+

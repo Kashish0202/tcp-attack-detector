@@ -1,6 +1,6 @@
 # Tunable thresholds
-SYN_FLOOD_THRESHOLD  = 100   # SYNs per second from 1 IP
-PORT_SCAN_THRESHOLD  = 20    # unique ports hit in 1 second
+SYN_FLOOD_THRESHOLD  = 5   # SYNs per second from 1 IP
+PORT_SCAN_THRESHOLD  = 5    # unique ports hit in 1 second
 
 def check_rules(f):
     """
